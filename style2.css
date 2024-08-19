@@ -1,0 +1,85 @@
+.avo{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+}
+.imglogo{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.4s ease-in-out;
+
+}
+a:hover::after{
+    width: 100%;
+}
+a:hover{
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+.apresentação{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.mae{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.filha2{
+    display: flex;
+    flex-direction: column; 
+}
+#lorena{
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#logosobre{
+    border-radius: 30px;
+}
+#t1{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#t2{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.botao{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+}
+#paidobot{
+    display:flex;
+    justify-content: center;
+    
+}
